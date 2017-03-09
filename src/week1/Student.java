@@ -1,7 +1,7 @@
 package week1;
 
 public class Student implements Comparable<Student> {
-	 int rollno;  
+	  int rollno;  
 	  String name;  
 	  int age;  
 	  Student(int rollno,String name,int age){  
@@ -9,6 +9,12 @@ public class Student implements Comparable<Student> {
 	   this.name=name;  
 	   this.age=age;  
 	  }
+	  
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+
 	public int getRollno() {
 		return rollno;
 	}
@@ -24,7 +30,7 @@ public class Student implements Comparable<Student> {
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	private void setAge(int age) {
 		this.age = age;
 	}
 	@Override
