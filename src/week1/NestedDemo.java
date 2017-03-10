@@ -1,6 +1,6 @@
 package week1;
 
-public class My_class {
+public class NestedDemo {
 	
 	public static void main(String[] args) {
 		//Demo nested class

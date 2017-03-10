@@ -9,7 +9,7 @@ public class DoGeneric {
 
 	public static void main(String[] args) {
 		GenericsInterface<String, Integer> p1 = new GenericPair("John", 01243124);
-		GenericsInterface<String, Integer> p2 = new GenericPair("Mary", 424242);
+		GenericsInterface<String, String> p2 = new GenericPair("Mary", "Jane");
 		
 		String name = GenericMethod.getKey(p1);
 		int phone = GenericMethod.getValue(p1);
