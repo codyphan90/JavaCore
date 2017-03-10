@@ -1,5 +1,5 @@
 package week1;
-
+//Enum presents a set of constrain
 public class EnumType {
 	public enum COLOUR{
 		RED, BLUE, YELLOW

@@ -14,3 +14,20 @@ public interface InterfaceLoginAuth {
 //    // Needs to implement both methods
 //}
 
+//abstract class example
+//public abstract class bike {
+//	String colour = "RED";
+//	public abstract float price(){
+//		
+//	}
+//}
+//	public class mountainBike extends bike {
+//		public float price(){
+//			//price 500$
+//		}
+//	}
+//	public class roadBike extends bike {
+//		public float price(){
+//			//price 1000$
+//		}
+//	}

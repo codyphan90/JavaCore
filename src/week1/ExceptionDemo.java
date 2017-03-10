@@ -32,7 +32,7 @@ public class ExceptionDemo {
 		
 		
 		
-//		Uncheck Exception: is run at runtime (bad data input from user
+//		Uncheck Exception: is run at runtime (bad data input from user)
 //		Ex:  NullPointerException,  ArrayIndexOutOfBoundsException,  ArithmeticException, IllegalArgumentException
 		System.out.println("Input num1:");
 		Scanner sc = new Scanner(System.in);

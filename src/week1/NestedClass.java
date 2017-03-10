@@ -8,13 +8,13 @@ public class NestedClass {
 			System.out.println("This is an inner class");
 		}
 	}
-		// access inner class
+		// access inner class via method
 	public void display_Inter() {
 		InnerDemo inner = new InnerDemo();
 		inner.print();
 	}
 
-		// access private members Example
+		// access private members via inner class
 	private int num = 2017;
 
 	public class InnerDemo2 {

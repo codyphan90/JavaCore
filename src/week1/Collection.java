@@ -9,12 +9,12 @@ public class Collection {
 
 	public static void main(String[] args) {
 		// 
-		Student s1 = new Student(101, "Sonoo", 23);
-		Student s2 = new Student(104, "Ravi", 21);
-		Student s3 = new Student(103, "Hanumat", 25);
-		Student s4 = new Student(106, "Hanumat2", 25);
-		Student s5 = new Student(105, "Hanumat3", 27);
-		Student s6 = new Student(102, "Hanumat4", 22);
+		Student s1 = new Student(101, "G", 23);
+		Student s2 = new Student(104, "D", 21);
+		Student s3 = new Student(103, "A", 25);
+		Student s4 = new Student(106, "E", 25);
+		Student s5 = new Student(105, "C", 27);
+		Student s6 = new Student(102, "B", 22);
 		// creating arraylist
 		ArrayList<Student> al = new ArrayList<Student>();
 		al.add(s1);// adding Student class object
